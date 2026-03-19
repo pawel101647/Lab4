@@ -2,7 +2,7 @@
 Rozwiązanie do zadania z laboratorium 4
 
 # Uruchomienie
-docker build -t web100 .
+docker build -t web100 .<br>
 docker run -d -p 8080:80 web100
 
 # Warstwy obrazu
