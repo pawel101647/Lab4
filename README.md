@@ -5,5 +5,5 @@ Rozwiązanie do zadania z laboratorium 4
 docker build -t web100 .<br>
 docker run -d -p 8080:80 web100
 
-# Warstwy obrazu
-Obraz ma 3 warstwy
+# Obraz
+Obraz ma 3 warstwy, a jego rozmiar został zmniejszony poprzez wyczyszczenie pamięci podręcznej pakietów.
